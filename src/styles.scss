@@ -155,7 +155,7 @@ body {
 	border-bottom: 1px solid #ededed;
 }
 
-.todo-list li:last-child {
+.todo-list :last-child li{
 	border-bottom: none;
 }
 
@@ -213,7 +213,7 @@ body {
 	display: block;
 	line-height: 1.2;
 	transition: color 0.4s;
-	font-weight: 400;
+	font-weight: 300;
 	color: #4d4d4d;
 }
 
